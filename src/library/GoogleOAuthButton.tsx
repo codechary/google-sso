@@ -2,7 +2,7 @@ import React from 'react';
 import {GoogleIcon} from "./icons/GoogleIcon";
 import Text from "./typography/Text";
 interface GoogleOAuthButtonProps {
-    onClick?: () => Promise<void>;
+    onClick?: () => void;
     text: string
 }
 
